@@ -10,6 +10,8 @@ import { asyncComponent } from './concepts/05-async.js'
 import { asyncAwaitComponent } from './concepts/06-async-await.js'
 import { asyncAwait2Component } from './concepts/07-async-await.js'
 import { forAwaitComponent } from './concepts/08-for-await.js'
+import { generatorFunctionsComponent } from './concepts/09-generators.js'
+import { generatorsAsyncComponent } from './concepts/10-generators-async.js'
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vite.dev" target="_blank">
@@ -32,5 +34,7 @@ const element = document.querySelector('.card');
 //asyncComponent( element );
 //asyncAwaitComponent( element );
 //asyncAwait2Component(element);
-forAwaitComponent( element );
+//forAwaitComponent( element );
+//generatorFunctionsComponent( element );
+generatorsAsyncComponent( element );
 
